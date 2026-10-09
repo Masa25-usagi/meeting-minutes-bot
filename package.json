@@ -1,0 +1,29 @@
+{
+  "name": "meeting-minutes-bot",
+  "version": "0.1.0",
+  "description": "Parse Google Meet Gemini notes from Google Drive and broadcast summaries and ToDos to Discord",
+  "type": "module",
+  "main": "src/index.ts",
+  "bin": {
+    "minutes-bot": "src/cli.ts"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.ts",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc --noEmit"
+  },
+  "keywords": [
+    "google-meet",
+    "gemini-notes",
+    "discord",
+    "bot",
+    "minutes",
+    "task-automation"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  },
+  "private": true
+}
